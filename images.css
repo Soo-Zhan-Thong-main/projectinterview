@@ -18,6 +18,31 @@
     margin:2%;
 }
 
-.logo:hover{
+.logo:hover , .logo2:hover{
     box-shadow: 0 0 40px lightseagreen;
+}
+
+.logo2{
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    float:left;
+    margin-top:0.5%;
+    margin-left:0%;
+    position:relative;
+    z-index: 1;
+}
+
+.extimage{
+    height:130px;
+    width:130px;
+    opacity:60%;
+    border-radius:20px;
+    position:relative;
+    float:left;
+}
+
+.extimage:hover{
+    box-shadow:0 0 30px black, 0 0 60px palevioletred;
+    opacity:100%;
 }

@@ -24,6 +24,7 @@
     padding-left: 65px;
     padding-right: 65px;
     color:white;
+    white-space:nowrap;
 }
 
 .sticking{
@@ -42,6 +43,7 @@
 .topic{
     font-family:'Times New Roman', Times, serif;
     font-size:26px;
+    clear:left;
 }
 
 .topic:hover{
@@ -52,6 +54,8 @@
 .pointsize{
     font-family:'Times New Roman', Times, serif;
     font-size:20px;
+    display:block;
+    white-space: nowrap;
 }
 
 .pointsize>li:hover{
@@ -84,4 +88,16 @@
 .myemail{
     text-decoration-line: none;
     color:yellow;
+}
+
+.sidebyside{
+    width:70%;
+    display:grid;
+    grid-template-columns: 100% 0%;
+    float:left;
+    overflow:visible;
+}
+
+.majoradjust{
+    margin-left:14%;
 }
