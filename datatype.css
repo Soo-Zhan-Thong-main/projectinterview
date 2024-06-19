@@ -101,3 +101,16 @@
 .majoradjust{
     margin-left:14%;
 }
+
+.thetable{
+    border:3px solid black;
+    text-align: center;
+    padding:15px;
+    margin-left:23%;
+}
+
+.thetable>tr>th{
+    border:3px solid black;
+    color:red;
+    text-shadow: 2px 2px 0 greenyellow;
+}
